@@ -1,0 +1,127 @@
+.main{
+padding-left: 60px;
+  }
+.homeFirstSectionDiv{
+  padding:0px;
+}
+.homeSecondSectionDiv{
+  padding:30px;
+}
+
+.awardWinningText
+{
+padding:90px 0px 12px 50px;
+
+}
+
+.digitalMarket{
+  padding:15px 0px 12px 50px;
+  font-size: 50px;
+  font: normal normal 900;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+}
+
+.paraHome1{
+letter-spacing: 0px;
+color: #000000;
+    padding:15px 1px 12px 50px;
+    text-align:justify;
+    font: normal normal normal 16px/30px Poppins;
+    font-size: 20px;
+}
+
+.heroImage{
+  padding:40px;
+  padding-top:10px;
+height:100%;
+width:70%;
+}
+
+.homeContactPara{
+    padding:15px 1px 12px 50px;
+    text-align:justify;
+    font-size: 20px;
+}
+
+.homeContactParaButton{
+  background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/*
+Page 2
+ */
+ .pageTwo{
+   padding:50px 60px 0px 50px;
+ }
+
+.whatWeDo{
+  padding-left:40px;
+}
+
+.page2Para{
+letter-spacing: 0px;
+color: #000000;
+    padding:15px 1px 12px 50px;
+    text-align:justify;
+    font: normal normal normal 16px/30px Poppins;
+    font-size: 20px;
+}
+
+/*
+Image gallery
+ */
+ div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
