@@ -1,5 +1,5 @@
 .main{
-padding-left: 60px;
+padding-left:0px;
   }
 .homeFirstSectionDiv{
   padding:0px;
@@ -124,4 +124,71 @@ div.desc {
   content: "";
   display: table;
   clear: both;
+}
+
+/*
+For hover effect
+ */
+img{
+  width: 200px;
+  height: 300px;
+   object-fit: cover;
+}
+div[id*='hover'][id$='hoverEnd']{
+  display: none;
+}
+/* #image1:hover{
+  display: none;
+}
+
+
+#image1:hover + #hover1{
+  display: block;
+} */
+div[id*='image'][id$='imageEnd']:hover{
+  display: none;
+}
+
+div[id*='image'][id$='imageEnd']:hover + div[id*='hover'][id$='hoverEnd']{
+  display: block;
+}
+.firstFocus:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.secondFocus:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.thirdFocus:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.fourthFocus:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.form-control {
+    border: 0;
+}
+.no-border {
+    border-style: none none solid none;
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50%;
 }

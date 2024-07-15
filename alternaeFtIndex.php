@@ -24,7 +24,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<a href="edt.php">Here</a>
 	<div class="main">
 		<!--
 
@@ -217,18 +216,13 @@
 
 </div>
 <div style="display:flex;">
-	<div class="carousel-indicators" style="display:flex;">
-	 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-	 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-	 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
- </div>
-<!-- <a class="carousel-control-bottom" href="#gallery" style="size:50px;" role="button" data-slide="prev">
+<a class="carousel-control-bottom" href="#gallery" style="size:50px;" role="button" data-slide="prev">
 	<h2 style="color:black;">. </h2>
 </a>
 <h2 style="color:black;">.</h2>
 <a class="carousel-control-bottom" href="#gallery" style="size:50px;" role="button" data-slide="next">
 		<h2 style="color:black;"> .</h2>
-</a> -->
+</a>
 </div>
 
 </div>
@@ -236,11 +230,11 @@
 <!--
 3rd page
  -->
- <div class="3rdPage" style="display:flex;max-height:5%;">
+ <div class="3rdPage" style="display:flex;">
 <div class="3Image">
-<img src="Images/Home/h12.png" style="width:100%;height:90%;padding-top:90px;padding-bottom:95px;padding-left:80px;padding-right:40px;"/>
+<img src="Images/Home/h12.png" style="width:100%;height:90%;padding-top:90px;padding-bottom:95px;padding-left:80px;padding-right:100px;"/>
 </div>
-<div class="3text" style="padding-left:0px;padding-top:5.5%;width:30%;h">
+<div class="3text" style="padding-left:0px;padding-top:3.5%;width:30%;">
 <div class="3rdPara1" style="border-style: outset;width:100%;background-color:#F1D8D3;padding-top:6%;padding-bottom:10%;padding-left:30px;">
 <p>
 	<h2>La licenciada</h2>
